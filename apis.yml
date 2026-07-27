@@ -1,7 +1,25 @@
 aid: heyclicky
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/heyclicky.png
 name: Heyclicky
-description: Heyclicky is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Heyclicky (product name Clicky) is a consumer macOS application from the Y Combinator
+  Spring 2026 batch that puts an AI assistant right next to your cursor. In Talk Mode a hotkey lets
+  you ask about whatever is on screen and get spoken, on-screen guidance; in Agent Mode you can command
+  autonomous agents to build, research, or perform tasks in the background, and it can connect to
+  services like Notion, Gmail, and Calendar. The app is screen-aware, works across any application
+  with no plugins, and ships as a notarized macOS binary distributed via a Sparkle appcast on GitHub.
+  Heyclicky is a consumer desktop product; it does not currently publish a public developer API,
+  SDK, or OpenAPI surface.
 url: https://raw.githubusercontent.com/api-evangelist/heyclicky/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +29,38 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- AI
+- Assistant
+- macOS
+- Desktop
+- Productivity
+- Agents
+- Consumer
+- Y Combinator
 apis: []
+common:
+- type: DomainSecurity
+  url: security/heyclicky-domain-security.yml
+- type: Website
+  url: https://heyclicky.com/
+- type: Pricing
+  url: https://heyclicky.com/#pricing
+- type: SignUp
+  url: https://github.com/farzaa/clicky-releases/releases/latest/download/HeyClicky.dmg
+- type: Support
+  url: mailto:hi@heyclicky.com
+- type: GitHubOrganization
+  url: https://github.com/farzaa
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
