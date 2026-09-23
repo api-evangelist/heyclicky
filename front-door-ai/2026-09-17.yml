@@ -1,0 +1,27 @@
+# Front Door AI Index — heyclicky — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: heyclicky
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: heyclicky.com
+  final_host: www.heyclicky.com
+  ownership: own
+  owner: heyclicky
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 3
+  host_score: 3
+  density: 4.22
+  words: 711
+  tiers:
+    agentic: 2
+    core: 0
+    model: 1
+  ambiguous: 11
+  top_terms:
+    agent: 11
+    AI assistant: 2
+    Claude: 1
